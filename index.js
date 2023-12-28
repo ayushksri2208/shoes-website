@@ -7,7 +7,7 @@ document.getElementById("username").addEventListener("input", function () {
 
 function handleUsernameChange(value) {
   username = value;
-  // console.log(username);
+  console.log(username);
 }
 
 document.getElementById("password").addEventListener("input", function () {
